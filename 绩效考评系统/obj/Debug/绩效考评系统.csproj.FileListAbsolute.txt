@@ -1,0 +1,11 @@
+d:\用户目录\我的文档\visual studio 2013\Projects\绩效考评系统\绩效考评系统\bin\Debug\绩效考评系统.exe.config
+E:\软件研发\绩效考评系统\绩效考评系统\bin\Debug\绩效考评系统.exe.config
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.csprojResolveAssemblyReference.cache
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.ChangeUserPasswordForm.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.DepartmentForm.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.LoginForm.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.MainForm.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.OperatorForm.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.PersonnelForm.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.Properties.Resources.resources
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.csproj.GenerateResource.Cache

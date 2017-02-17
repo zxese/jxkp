@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="绩效考评系统.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="绩效考评系统ConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=ScoringSys;Integrated Security=True;Pooling=False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
