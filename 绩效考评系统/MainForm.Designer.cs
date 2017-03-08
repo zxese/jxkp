@@ -147,7 +147,7 @@
             this.家庭成员ToolStripMenuItem.Name = "家庭成员ToolStripMenuItem";
             this.家庭成员ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.家庭成员ToolStripMenuItem.Text = "家庭成员(&F)";
-            this.家庭成员ToolStripMenuItem.Click += new System.EventHandler(this.家庭成员FToolStripMenuItem_Click);
+            //this.家庭成员ToolStripMenuItem.Click += new System.EventHandler(this.家庭成员FToolStripMenuItem_Click);
             // 
             // 家庭成员ToolStripSeparator
             // 
@@ -160,7 +160,7 @@
             this.工作简历ToolStripMenuItem.Name = "工作简历ToolStripMenuItem";
             this.工作简历ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.工作简历ToolStripMenuItem.Text = "工作简历(&R)";
-            this.工作简历ToolStripMenuItem.Click += new System.EventHandler(this.工作简历RToolStripMenuItem_Click);
+            //this.工作简历ToolStripMenuItem.Click += new System.EventHandler(this.工作简历RToolStripMenuItem_Click);
             // 
             // 工作简历ToolStripSeparator
             // 
@@ -173,7 +173,7 @@
             this.奖惩记录ToolStripMenuItem.Name = "奖惩记录ToolStripMenuItem";
             this.奖惩记录ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.奖惩记录ToolStripMenuItem.Text = "奖惩记录(&W)";
-            this.奖惩记录ToolStripMenuItem.Click += new System.EventHandler(this.奖惩记录WToolStripMenuItem_Click);
+            //this.奖惩记录ToolStripMenuItem.Click += new System.EventHandler(this.奖惩记录WToolStripMenuItem_Click);
             // 
             // 奖惩记录ToolStripSeparator
             // 
@@ -186,7 +186,7 @@
             this.培训记录ToolStripMenuItem.Name = "培训记录ToolStripMenuItem";
             this.培训记录ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.培训记录ToolStripMenuItem.Text = "培训记录(&T)";
-            this.培训记录ToolStripMenuItem.Click += new System.EventHandler(this.培训记录ToolStripMenuItem_Click);
+            //this.培训记录ToolStripMenuItem.Click += new System.EventHandler(this.培训记录ToolStripMenuItem_Click);
             // 
             // 培训记录ToolStripSeparator
             // 
@@ -199,7 +199,7 @@
             this.工作业绩ToolStripMenuItem.Name = "工作业绩ToolStripMenuItem";
             this.工作业绩ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.工作业绩ToolStripMenuItem.Text = "工作业绩(&A)";
-            this.工作业绩ToolStripMenuItem.Click += new System.EventHandler(this.工作业绩ToolStripMenuItem_Click);
+            //this.工作业绩ToolStripMenuItem.Click += new System.EventHandler(this.工作业绩ToolStripMenuItem_Click);
             // 
             // 工作业绩ToolStripSeparator
             // 
@@ -212,7 +212,7 @@
             this.离职管理ToolStripMenuItem.Name = "离职管理ToolStripMenuItem";
             this.离职管理ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.离职管理ToolStripMenuItem.Text = "离职管理(&L)";
-            this.离职管理ToolStripMenuItem.Click += new System.EventHandler(this.离职管理ToolStripMenuItem_Click);
+            //this.离职管理ToolStripMenuItem.Click += new System.EventHandler(this.离职管理ToolStripMenuItem_Click);
             // 
             // 考勤管理AToolStripMenuItem
             // 
@@ -231,7 +231,7 @@
             this.月度部门考勤ToolStripMenuItem.Name = "月度部门考勤ToolStripMenuItem";
             this.月度部门考勤ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.月度部门考勤ToolStripMenuItem.Text = "月度部门考勤(&M)";
-            this.月度部门考勤ToolStripMenuItem.Click += new System.EventHandler(this.月度部门考勤ToolStripMenuItem_Click);
+            //this.月度部门考勤ToolStripMenuItem.Click += new System.EventHandler(this.月度部门考勤ToolStripMenuItem_Click);
             // 
             // 月度部门考勤ToolStripSeparator
             // 
@@ -244,7 +244,7 @@
             this.年度个人考勤ToolStripMenuItem.Name = "年度个人考勤ToolStripMenuItem";
             this.年度个人考勤ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.年度个人考勤ToolStripMenuItem.Text = "年度个人考勤(&Y)";
-            this.年度个人考勤ToolStripMenuItem.Click += new System.EventHandler(this.年度个人考勤ToolStripMenuItem_Click);
+            //this.年度个人考勤ToolStripMenuItem.Click += new System.EventHandler(this.年度个人考勤ToolStripMenuItem_Click);
             // 
             // 工资管理MToolStripMenuItem
             // 
@@ -263,7 +263,7 @@
             this.工资核算ToolStripMenuItem.Name = "工资核算ToolStripMenuItem";
             this.工资核算ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.工资核算ToolStripMenuItem.Text = "工资核算(&C)";
-            this.工资核算ToolStripMenuItem.Click += new System.EventHandler(this.工资核算CToolStripMenuItem_Click);
+            //this.工资核算ToolStripMenuItem.Click += new System.EventHandler(this.工资核算CToolStripMenuItem_Click);
             // 
             // 工资核算ToolStripSeparator
             // 
@@ -276,7 +276,7 @@
             this.工资发放ToolStripMenuItem.Name = "工资发放ToolStripMenuItem";
             this.工资发放ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.工资发放ToolStripMenuItem.Text = "工资发放(&P)";
-            this.工资发放ToolStripMenuItem.Click += new System.EventHandler(this.工资发放PToolStripMenuItem_Click);
+            //this.工资发放ToolStripMenuItem.Click += new System.EventHandler(this.工资发放PToolStripMenuItem_Click);
             // 
             // 查询管理QToolStripMenuItem
             // 
@@ -299,7 +299,7 @@
             this.个人员工档案ToolStripMenuItem.Name = "个人员工档案ToolStripMenuItem";
             this.个人员工档案ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.个人员工档案ToolStripMenuItem.Text = "个人员工档案(&P)";
-            this.个人员工档案ToolStripMenuItem.Click += new System.EventHandler(this.个人员工档案ToolStripMenuItem_Click);
+            //this.个人员工档案ToolStripMenuItem.Click += new System.EventHandler(this.个人员工档案ToolStripMenuItem_Click);
             // 
             // 个人员工档案ToolStripSeparator
             // 
@@ -312,7 +312,7 @@
             this.部门员工档案ToolStripMenuItem.Name = "部门员工档案ToolStripMenuItem";
             this.部门员工档案ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.部门员工档案ToolStripMenuItem.Text = "部门员工档案(&D)";
-            this.部门员工档案ToolStripMenuItem.Click += new System.EventHandler(this.部门员工档案ToolStripMenuItem_Click);
+            //this.部门员工档案ToolStripMenuItem.Click += new System.EventHandler(this.部门员工档案ToolStripMenuItem_Click);
             // 
             // 部门员工档案ToolStripSeparator
             // 
@@ -325,7 +325,7 @@
             this.全部考勤记录ToolStripMenuItem.Name = "全部考勤记录ToolStripMenuItem";
             this.全部考勤记录ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.全部考勤记录ToolStripMenuItem.Text = "全部考勤记录(&A)";
-            this.全部考勤记录ToolStripMenuItem.Click += new System.EventHandler(this.全部考勤记录ToolStripMenuItem_Click);
+            //this.全部考勤记录ToolStripMenuItem.Click += new System.EventHandler(this.全部考勤记录ToolStripMenuItem_Click);
             // 
             // 全部考勤记录ToolStripSeparator
             // 
@@ -338,7 +338,7 @@
             this.全部工资信息ToolStripMenuItem.Name = "全部工资信息ToolStripMenuItem";
             this.全部工资信息ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.全部工资信息ToolStripMenuItem.Text = "全部工资信息(&S)";
-            this.全部工资信息ToolStripMenuItem.Click += new System.EventHandler(this.全部工资信息ToolStripMenuItem_Click);
+            //this.全部工资信息ToolStripMenuItem.Click += new System.EventHandler(this.全部工资信息ToolStripMenuItem_Click);
             // 
             // 系统管理SToolStripMenuItem
             // 
@@ -389,7 +389,7 @@
             this.公司信息设置ToolStripMenuItem.Name = "公司信息设置ToolStripMenuItem";
             this.公司信息设置ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.公司信息设置ToolStripMenuItem.Text = "公司信息设置(&C)";
-            this.公司信息设置ToolStripMenuItem.Click += new System.EventHandler(this.公司信息设置ToolStripMenuItem_Click);
+            //this.公司信息设置ToolStripMenuItem.Click += new System.EventHandler(this.公司信息设置ToolStripMenuItem_Click);
             // 
             // 公司信息设置ToolStripSeparator
             // 
@@ -415,7 +415,7 @@
             this.系统帮助信息HToolStripMenuItem.Name = "系统帮助信息HToolStripMenuItem";
             this.系统帮助信息HToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.系统帮助信息HToolStripMenuItem.Text = "系统帮助信息(&H)";
-            this.系统帮助信息HToolStripMenuItem.Click += new System.EventHandler(this.系统帮助信息HToolStripMenuItem_Click);
+            //this.系统帮助信息HToolStripMenuItem.Click += new System.EventHandler(this.系统帮助信息HToolStripMenuItem_Click);
             // 
             // 退出系统EToolStripMenuItem
             // 
@@ -473,7 +473,7 @@
             this.家庭成员ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.家庭成员ToolStripButton.Text = "家庭成员";
             this.家庭成员ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.家庭成员ToolStripButton.Click += new System.EventHandler(this.家庭成员FToolStripMenuItem_Click);
+            //this.家庭成员ToolStripButton.Click += new System.EventHandler(this.家庭成员FToolStripMenuItem_Click);
             // 
             // 工作简历ToolStripButton
             // 
@@ -485,7 +485,7 @@
             this.工作简历ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.工作简历ToolStripButton.Text = "工作简历";
             this.工作简历ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.工作简历ToolStripButton.Click += new System.EventHandler(this.工作简历RToolStripMenuItem_Click);
+            //this.工作简历ToolStripButton.Click += new System.EventHandler(this.工作简历RToolStripMenuItem_Click);
             // 
             // 奖惩记录ToolStripButton
             // 
@@ -497,7 +497,7 @@
             this.奖惩记录ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.奖惩记录ToolStripButton.Text = "奖惩记录";
             this.奖惩记录ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.奖惩记录ToolStripButton.Click += new System.EventHandler(this.奖惩记录WToolStripMenuItem_Click);
+            //this.奖惩记录ToolStripButton.Click += new System.EventHandler(this.奖惩记录WToolStripMenuItem_Click);
             // 
             // 培训记录ToolStripButton
             // 
@@ -509,7 +509,7 @@
             this.培训记录ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.培训记录ToolStripButton.Text = "培训记录";
             this.培训记录ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.培训记录ToolStripButton.Click += new System.EventHandler(this.培训记录ToolStripMenuItem_Click);
+            //this.培训记录ToolStripButton.Click += new System.EventHandler(this.培训记录ToolStripMenuItem_Click);
             // 
             // 工作业绩ToolStripButton
             // 
@@ -521,7 +521,7 @@
             this.工作业绩ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.工作业绩ToolStripButton.Text = "工作业绩";
             this.工作业绩ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.工作业绩ToolStripButton.Click += new System.EventHandler(this.工作业绩ToolStripMenuItem_Click);
+            //this.工作业绩ToolStripButton.Click += new System.EventHandler(this.工作业绩ToolStripMenuItem_Click);
             // 
             // 离职管理ToolStripButton
             // 
@@ -533,7 +533,7 @@
             this.离职管理ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.离职管理ToolStripButton.Text = "离职管理";
             this.离职管理ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.离职管理ToolStripButton.Click += new System.EventHandler(this.离职管理ToolStripMenuItem_Click);
+            //this.离职管理ToolStripButton.Click += new System.EventHandler(this.离职管理ToolStripMenuItem_Click);
             // 
             // 部门考勤ToolStripButton
             // 
@@ -545,7 +545,7 @@
             this.部门考勤ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.部门考勤ToolStripButton.Text = "部门考勤";
             this.部门考勤ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.部门考勤ToolStripButton.Click += new System.EventHandler(this.月度部门考勤ToolStripMenuItem_Click);
+            //this.部门考勤ToolStripButton.Click += new System.EventHandler(this.月度部门考勤ToolStripMenuItem_Click);
             // 
             // 个人考勤ToolStripButton
             // 
@@ -557,7 +557,7 @@
             this.个人考勤ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.个人考勤ToolStripButton.Text = "个人考勤";
             this.个人考勤ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.个人考勤ToolStripButton.Click += new System.EventHandler(this.年度个人考勤ToolStripMenuItem_Click);
+            //this.个人考勤ToolStripButton.Click += new System.EventHandler(this.年度个人考勤ToolStripMenuItem_Click);
             // 
             // 工资核算ToolStripButton
             // 
@@ -569,7 +569,7 @@
             this.工资核算ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.工资核算ToolStripButton.Text = "工资核算";
             this.工资核算ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.工资核算ToolStripButton.Click += new System.EventHandler(this.工资核算CToolStripMenuItem_Click);
+            //this.工资核算ToolStripButton.Click += new System.EventHandler(this.工资核算CToolStripMenuItem_Click);
             // 
             // 工资发放ToolStripButton
             // 
@@ -581,7 +581,7 @@
             this.工资发放ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.工资发放ToolStripButton.Text = "工资发放";
             this.工资发放ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.工资发放ToolStripButton.Click += new System.EventHandler(this.工资发放PToolStripMenuItem_Click);
+            //this.工资发放ToolStripButton.Click += new System.EventHandler(this.工资发放PToolStripMenuItem_Click);
             // 
             // 个人档案ToolStripButton
             // 
@@ -593,7 +593,7 @@
             this.个人档案ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.个人档案ToolStripButton.Text = "个人档案";
             this.个人档案ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.个人档案ToolStripButton.Click += new System.EventHandler(this.个人员工档案ToolStripMenuItem_Click);
+            //this.个人档案ToolStripButton.Click += new System.EventHandler(this.个人员工档案ToolStripMenuItem_Click);
             // 
             // 部门档案ToolStripButton
             // 
@@ -605,7 +605,7 @@
             this.部门档案ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.部门档案ToolStripButton.Text = "部门档案";
             this.部门档案ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.部门档案ToolStripButton.Click += new System.EventHandler(this.部门员工档案ToolStripMenuItem_Click);
+            //this.部门档案ToolStripButton.Click += new System.EventHandler(this.部门员工档案ToolStripMenuItem_Click);
             // 
             // 考勤记录ToolStripButton
             // 
@@ -617,7 +617,7 @@
             this.考勤记录ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.考勤记录ToolStripButton.Text = "考勤记录";
             this.考勤记录ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.考勤记录ToolStripButton.Click += new System.EventHandler(this.全部考勤记录ToolStripMenuItem_Click);
+            //this.考勤记录ToolStripButton.Click += new System.EventHandler(this.全部考勤记录ToolStripMenuItem_Click);
             // 
             // 工资信息ToolStripButton
             // 
@@ -629,7 +629,7 @@
             this.工资信息ToolStripButton.Size = new System.Drawing.Size(57, 48);
             this.工资信息ToolStripButton.Text = "工资信息";
             this.工资信息ToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.工资信息ToolStripButton.Click += new System.EventHandler(this.全部工资信息ToolStripMenuItem_Click);
+            //this.工资信息ToolStripButton.Click += new System.EventHandler(this.全部工资信息ToolStripMenuItem_Click);
             // 
             // 退出系统ToolStripButton
             // 

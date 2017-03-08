@@ -1,4 +1,19 @@
-﻿namespace 绩效考评系统 {
+﻿namespace 绩效考评系统
+{
+}
+namespace 绩效考评系统
+{
+}
+namespace 绩效考评系统
+{
+}
+namespace 绩效考评系统
+{
+}
+namespace 绩效考评系统
+{
+}
+namespace 绩效考评系统 {
 
 
    
@@ -9,6 +24,10 @@ namespace 绩效考评系统 {
 
     partial class 绩效考评系统DataSet
     {
+        partial class 公司部门DataTable
+        {
+        }
+    
         partial class 工资核算表DataTable
         {
         }

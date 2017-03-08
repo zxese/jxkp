@@ -20,9 +20,9 @@ namespace 绩效考评系统 {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("绩效考评系统DataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("MyPersonnelDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class 绩效考评系统DataSet : global::System.Data.DataSet {
+    public partial class MyPersonnelDataSet : global::System.Data.DataSet {
         
         private 公司信息DataTable table公司信息;
         
@@ -54,7 +54,7 @@ namespace 绩效考评系统 {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public 绩效考评系统DataSet() {
+        public MyPersonnelDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -65,7 +65,7 @@ namespace 绩效考评系统 {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        protected 绩效考评系统DataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected MyPersonnelDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -307,7 +307,7 @@ namespace 绩效考评系统 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            绩效考评系统DataSet cln = ((绩效考评系统DataSet)(base.Clone()));
+            MyPersonnelDataSet cln = ((MyPersonnelDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -487,9 +487,9 @@ namespace 绩效考评系统 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "绩效考评系统DataSet";
+            this.DataSetName = "MyPersonnelDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/绩效考评系统DataSet.xsd";
+            this.Namespace = "http://tempuri.org/MyPersonnelDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.table公司信息 = new 公司信息DataTable();
@@ -609,7 +609,7 @@ namespace 绩效考评系统 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+            MyPersonnelDataSet ds = new MyPersonnelDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -1026,7 +1026,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1359,7 +1359,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2065,7 +2065,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2459,7 +2459,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2836,7 +2836,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3213,7 +3213,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3619,7 +3619,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3953,7 +3953,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4301,7 +4301,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5181,7 +5181,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5639,7 +5639,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6270,7 +6270,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6847,7 +6847,7 @@ namespace 绩效考评系统 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                绩效考评系统DataSet ds = new 绩效考评系统DataSet();
+                MyPersonnelDataSet ds = new MyPersonnelDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -12766,7 +12766,7 @@ namespace 绩效考评系统 {
         }
     }
 }
-namespace 绩效考评系统.绩效考评系统DataSetTableAdapters {
+namespace 绩效考评系统.MyPersonnelDataSetTableAdapters {
     
     
     /// <summary>
@@ -12969,7 +12969,7 @@ SELECT 公司名称, 法人代表, 公司地址, 服务电话, 邮政编码, 电
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.公司信息DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.公司信息DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -12982,9 +12982,9 @@ SELECT 公司名称, 法人代表, 公司地址, 服务电话, 邮政编码, 电
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.公司信息DataTable GetData() {
+        public virtual MyPersonnelDataSet.公司信息DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.公司信息DataTable dataTable = new 绩效考评系统DataSet.公司信息DataTable();
+            MyPersonnelDataSet.公司信息DataTable dataTable = new MyPersonnelDataSet.公司信息DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -12992,14 +12992,14 @@ SELECT 公司名称, 法人代表, 公司地址, 服务电话, 邮政编码, 电
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.公司信息DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.公司信息DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "公司信息");
         }
         
@@ -13577,7 +13577,7 @@ SELECT 部门名称, 部门负责人, 人事文员, 联系电话, 额定人数, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.公司部门DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.公司部门DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -13590,9 +13590,9 @@ SELECT 部门名称, 部门负责人, 人事文员, 联系电话, 额定人数, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.公司部门DataTable GetData() {
+        public virtual MyPersonnelDataSet.公司部门DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.公司部门DataTable dataTable = new 绩效考评系统DataSet.公司部门DataTable();
+            MyPersonnelDataSet.公司部门DataTable dataTable = new MyPersonnelDataSet.公司部门DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -13600,14 +13600,14 @@ SELECT 部门名称, 部门负责人, 人事文员, 联系电话, 额定人数, 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.公司部门DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.公司部门DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "公司部门");
         }
         
@@ -14024,7 +14024,7 @@ WHERE (姓名 LIKE @姓名) AND (员工编号 NOT IN (SELECT 员工编号 FROM �
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.基本档案DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.基本档案DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -14037,9 +14037,9 @@ WHERE (姓名 LIKE @姓名) AND (员工编号 NOT IN (SELECT 员工编号 FROM �
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.基本档案DataTable GetData() {
+        public virtual MyPersonnelDataSet.基本档案DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.基本档案DataTable dataTable = new 绩效考评系统DataSet.基本档案DataTable();
+            MyPersonnelDataSet.基本档案DataTable dataTable = new MyPersonnelDataSet.基本档案DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -14048,7 +14048,7 @@ WHERE (姓名 LIKE @姓名) AND (员工编号 NOT IN (SELECT 员工编号 FROM �
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.基本档案DataTable dataTable, string 姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.基本档案DataTable dataTable, string 姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -14067,7 +14067,7 @@ WHERE (姓名 LIKE @姓名) AND (员工编号 NOT IN (SELECT 员工编号 FROM �
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.基本档案DataTable GetDataBy(string 姓名) {
+        public virtual MyPersonnelDataSet.基本档案DataTable GetDataBy(string 姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -14075,7 +14075,7 @@ WHERE (姓名 LIKE @姓名) AND (员工编号 NOT IN (SELECT 员工编号 FROM �
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(姓名));
             }
-            绩效考评系统DataSet.基本档案DataTable dataTable = new 绩效考评系统DataSet.基本档案DataTable();
+            MyPersonnelDataSet.基本档案DataTable dataTable = new MyPersonnelDataSet.基本档案DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -14083,14 +14083,14 @@ WHERE (姓名 LIKE @姓名) AND (员工编号 NOT IN (SELECT 员工编号 FROM �
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.基本档案DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.基本档案DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "基本档案");
         }
         
@@ -15363,7 +15363,7 @@ SELECT 自编号, 员工编号, 员工姓名, 家庭成员姓名, 与员工关�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.员工家庭成员DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.员工家庭成员DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -15376,9 +15376,9 @@ SELECT 自编号, 员工编号, 员工姓名, 家庭成员姓名, 与员工关�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.员工家庭成员DataTable GetData() {
+        public virtual MyPersonnelDataSet.员工家庭成员DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.员工家庭成员DataTable dataTable = new 绩效考评系统DataSet.员工家庭成员DataTable();
+            MyPersonnelDataSet.员工家庭成员DataTable dataTable = new MyPersonnelDataSet.员工家庭成员DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -15387,7 +15387,7 @@ SELECT 自编号, 员工编号, 员工姓名, 家庭成员姓名, 与员工关�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.员工家庭成员DataTable dataTable, string 员工姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.员工家庭成员DataTable dataTable, string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -15406,7 +15406,7 @@ SELECT 自编号, 员工编号, 员工姓名, 家庭成员姓名, 与员工关�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.员工家庭成员DataTable GetDataBy(string 员工姓名) {
+        public virtual MyPersonnelDataSet.员工家庭成员DataTable GetDataBy(string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -15414,7 +15414,7 @@ SELECT 自编号, 员工编号, 员工姓名, 家庭成员姓名, 与员工关�
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(员工姓名));
             }
-            绩效考评系统DataSet.员工家庭成员DataTable dataTable = new 绩效考评系统DataSet.员工家庭成员DataTable();
+            MyPersonnelDataSet.员工家庭成员DataTable dataTable = new MyPersonnelDataSet.员工家庭成员DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -15422,14 +15422,14 @@ SELECT 自编号, 员工编号, 员工姓名, 家庭成员姓名, 与员工关�
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.员工家庭成员DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.员工家庭成员DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "员工家庭成员");
         }
         
@@ -16035,7 +16035,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 单位
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.工作简历DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.工作简历DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -16048,9 +16048,9 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 单位
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.工作简历DataTable GetData() {
+        public virtual MyPersonnelDataSet.工作简历DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.工作简历DataTable dataTable = new 绩效考评系统DataSet.工作简历DataTable();
+            MyPersonnelDataSet.工作简历DataTable dataTable = new MyPersonnelDataSet.工作简历DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -16059,7 +16059,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 单位
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.工作简历DataTable dataTable, string 员工姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.工作简历DataTable dataTable, string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -16078,7 +16078,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 单位
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.工作简历DataTable GetDataBy(string 员工姓名) {
+        public virtual MyPersonnelDataSet.工作简历DataTable GetDataBy(string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -16086,7 +16086,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 单位
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(员工姓名));
             }
-            绩效考评系统DataSet.工作简历DataTable dataTable = new 绩效考评系统DataSet.工作简历DataTable();
+            MyPersonnelDataSet.工作简历DataTable dataTable = new MyPersonnelDataSet.工作简历DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -16094,14 +16094,14 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 单位
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.工作简历DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.工作简历DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "工作简历");
         }
         
@@ -16673,7 +16673,7 @@ SELECT 自编号, 员工编号, 员工姓名, 奖惩日期, 奖惩类型, 奖惩
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.奖惩记录DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.奖惩记录DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -16686,9 +16686,9 @@ SELECT 自编号, 员工编号, 员工姓名, 奖惩日期, 奖惩类型, 奖惩
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.奖惩记录DataTable GetData() {
+        public virtual MyPersonnelDataSet.奖惩记录DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.奖惩记录DataTable dataTable = new 绩效考评系统DataSet.奖惩记录DataTable();
+            MyPersonnelDataSet.奖惩记录DataTable dataTable = new MyPersonnelDataSet.奖惩记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -16697,7 +16697,7 @@ SELECT 自编号, 员工编号, 员工姓名, 奖惩日期, 奖惩类型, 奖惩
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.奖惩记录DataTable dataTable, string 员工姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.奖惩记录DataTable dataTable, string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -16716,7 +16716,7 @@ SELECT 自编号, 员工编号, 员工姓名, 奖惩日期, 奖惩类型, 奖惩
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.奖惩记录DataTable GetDataBy(string 员工姓名) {
+        public virtual MyPersonnelDataSet.奖惩记录DataTable GetDataBy(string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -16724,7 +16724,7 @@ SELECT 自编号, 员工编号, 员工姓名, 奖惩日期, 奖惩类型, 奖惩
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(员工姓名));
             }
-            绩效考评系统DataSet.奖惩记录DataTable dataTable = new 绩效考评系统DataSet.奖惩记录DataTable();
+            MyPersonnelDataSet.奖惩记录DataTable dataTable = new MyPersonnelDataSet.奖惩记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -16732,14 +16732,14 @@ SELECT 自编号, 员工编号, 员工姓名, 奖惩日期, 奖惩类型, 奖惩
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.奖惩记录DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.奖惩记录DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "奖惩记录");
         }
         
@@ -17325,7 +17325,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 培训
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.培训记录DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.培训记录DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -17338,9 +17338,9 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 培训
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.培训记录DataTable GetData() {
+        public virtual MyPersonnelDataSet.培训记录DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.培训记录DataTable dataTable = new 绩效考评系统DataSet.培训记录DataTable();
+            MyPersonnelDataSet.培训记录DataTable dataTable = new MyPersonnelDataSet.培训记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -17349,7 +17349,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 培训
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.培训记录DataTable dataTable, string 员工姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.培训记录DataTable dataTable, string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -17368,7 +17368,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 培训
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.培训记录DataTable GetDataBy(string 员工姓名) {
+        public virtual MyPersonnelDataSet.培训记录DataTable GetDataBy(string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -17376,7 +17376,7 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 培训
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(员工姓名));
             }
-            绩效考评系统DataSet.培训记录DataTable dataTable = new 绩效考评系统DataSet.培训记录DataTable();
+            MyPersonnelDataSet.培训记录DataTable dataTable = new MyPersonnelDataSet.培训记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -17384,14 +17384,14 @@ SELECT 自编号, 员工编号, 员工姓名, 开始时间, 结束时间, 培训
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.培训记录DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.培训记录DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "培训记录");
         }
         
@@ -18007,7 +18007,7 @@ SELECT 自编号, 员工编号, 员工姓名, 工作业绩, 专长描述, 说明
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.工作业绩DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.工作业绩DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -18020,9 +18020,9 @@ SELECT 自编号, 员工编号, 员工姓名, 工作业绩, 专长描述, 说明
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.工作业绩DataTable GetData() {
+        public virtual MyPersonnelDataSet.工作业绩DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.工作业绩DataTable dataTable = new 绩效考评系统DataSet.工作业绩DataTable();
+            MyPersonnelDataSet.工作业绩DataTable dataTable = new MyPersonnelDataSet.工作业绩DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -18031,7 +18031,7 @@ SELECT 自编号, 员工编号, 员工姓名, 工作业绩, 专长描述, 说明
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.工作业绩DataTable dataTable, string 员工姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.工作业绩DataTable dataTable, string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -18050,7 +18050,7 @@ SELECT 自编号, 员工编号, 员工姓名, 工作业绩, 专长描述, 说明
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.工作业绩DataTable GetDataBy(string 员工姓名) {
+        public virtual MyPersonnelDataSet.工作业绩DataTable GetDataBy(string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -18058,7 +18058,7 @@ SELECT 自编号, 员工编号, 员工姓名, 工作业绩, 专长描述, 说明
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(员工姓名));
             }
-            绩效考评系统DataSet.工作业绩DataTable dataTable = new 绩效考评系统DataSet.工作业绩DataTable();
+            MyPersonnelDataSet.工作业绩DataTable dataTable = new MyPersonnelDataSet.工作业绩DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -18066,14 +18066,14 @@ SELECT 自编号, 员工编号, 员工姓名, 工作业绩, 专长描述, 说明
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.工作业绩DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.工作业绩DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "工作业绩");
         }
         
@@ -18512,7 +18512,7 @@ SELECT 自编号, 员工编号, 员工姓名, 离职时间, 离职原因, 批准
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.离职管理DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.离职管理DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -18525,9 +18525,9 @@ SELECT 自编号, 员工编号, 员工姓名, 离职时间, 离职原因, 批准
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.离职管理DataTable GetData() {
+        public virtual MyPersonnelDataSet.离职管理DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.离职管理DataTable dataTable = new 绩效考评系统DataSet.离职管理DataTable();
+            MyPersonnelDataSet.离职管理DataTable dataTable = new MyPersonnelDataSet.离职管理DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -18536,7 +18536,7 @@ SELECT 自编号, 员工编号, 员工姓名, 离职时间, 离职原因, 批准
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.离职管理DataTable dataTable, string 员工姓名) {
+        public virtual int FillBy(MyPersonnelDataSet.离职管理DataTable dataTable, string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -18555,7 +18555,7 @@ SELECT 自编号, 员工编号, 员工姓名, 离职时间, 离职原因, 批准
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.离职管理DataTable GetDataBy(string 员工姓名) {
+        public virtual MyPersonnelDataSet.离职管理DataTable GetDataBy(string 员工姓名) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((员工姓名 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -18563,7 +18563,7 @@ SELECT 自编号, 员工编号, 员工姓名, 离职时间, 离职原因, 批准
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(员工姓名));
             }
-            绩效考评系统DataSet.离职管理DataTable dataTable = new 绩效考评系统DataSet.离职管理DataTable();
+            MyPersonnelDataSet.离职管理DataTable dataTable = new MyPersonnelDataSet.离职管理DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -18571,14 +18571,14 @@ SELECT 自编号, 员工编号, 员工姓名, 离职时间, 离职原因, 批准
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.离职管理DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.离职管理DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "离职管理");
         }
         
@@ -19316,7 +19316,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.考勤记录DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.考勤记录DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -19329,9 +19329,9 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.考勤记录DataTable GetData() {
+        public virtual MyPersonnelDataSet.考勤记录DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.考勤记录DataTable dataTable = new 绩效考评系统DataSet.考勤记录DataTable();
+            MyPersonnelDataSet.考勤记录DataTable dataTable = new MyPersonnelDataSet.考勤记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -19340,7 +19340,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.考勤记录DataTable dataTable, global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份, string 部门) {
+        public virtual int FillBy(MyPersonnelDataSet.考勤记录DataTable dataTable, global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份, string 部门) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((考勤年份.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((int)(考勤年份.Value));
@@ -19371,7 +19371,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.考勤记录DataTable GetDataBy(global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份, string 部门) {
+        public virtual MyPersonnelDataSet.考勤记录DataTable GetDataBy(global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份, string 部门) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((考勤年份.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((int)(考勤年份.Value));
@@ -19391,7 +19391,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
             else {
                 this.Adapter.SelectCommand.Parameters[2].Value = ((string)(部门));
             }
-            绩效考评系统DataSet.考勤记录DataTable dataTable = new 绩效考评系统DataSet.考勤记录DataTable();
+            MyPersonnelDataSet.考勤记录DataTable dataTable = new MyPersonnelDataSet.考勤记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -19400,7 +19400,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy1(绩效考评系统DataSet.考勤记录DataTable dataTable, global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份) {
+        public virtual int FillBy1(MyPersonnelDataSet.考勤记录DataTable dataTable, global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份) {
             this.Adapter.SelectCommand = this.CommandCollection[2];
             if ((考勤年份.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((int)(考勤年份.Value));
@@ -19425,7 +19425,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.考勤记录DataTable GetDataBy1(global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份) {
+        public virtual MyPersonnelDataSet.考勤记录DataTable GetDataBy1(global::System.Nullable<int> 考勤年份, global::System.Nullable<int> 考勤月份) {
             this.Adapter.SelectCommand = this.CommandCollection[2];
             if ((考勤年份.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((int)(考勤年份.Value));
@@ -19439,7 +19439,7 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            绩效考评系统DataSet.考勤记录DataTable dataTable = new 绩效考评系统DataSet.考勤记录DataTable();
+            MyPersonnelDataSet.考勤记录DataTable dataTable = new MyPersonnelDataSet.考勤记录DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -19447,14 +19447,14 @@ FROM 考勤记录 WHERE  (考勤记录.考勤年份 LIKE @考勤年份) AND (考
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.考勤记录DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.考勤记录DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "考勤记录");
         }
         
@@ -21006,7 +21006,7 @@ SELECT 自编号, 员工编号, 员工姓名, 基本工资, 津贴, 奖金, 工�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.工资核算表DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.工资核算表DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -21019,9 +21019,9 @@ SELECT 自编号, 员工编号, 员工姓名, 基本工资, 津贴, 奖金, 工�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.工资核算表DataTable GetData() {
+        public virtual MyPersonnelDataSet.工资核算表DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.工资核算表DataTable dataTable = new 绩效考评系统DataSet.工资核算表DataTable();
+            MyPersonnelDataSet.工资核算表DataTable dataTable = new MyPersonnelDataSet.工资核算表DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -21030,7 +21030,7 @@ SELECT 自编号, 员工编号, 员工姓名, 基本工资, 津贴, 奖金, 工�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.工资核算表DataTable dataTable, string 部门) {
+        public virtual int FillBy(MyPersonnelDataSet.工资核算表DataTable dataTable, string 部门) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((部门 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -21049,7 +21049,7 @@ SELECT 自编号, 员工编号, 员工姓名, 基本工资, 津贴, 奖金, 工�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.工资核算表DataTable GetDataBy(string 部门) {
+        public virtual MyPersonnelDataSet.工资核算表DataTable GetDataBy(string 部门) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((部门 == null)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = global::System.DBNull.Value;
@@ -21057,7 +21057,7 @@ SELECT 自编号, 员工编号, 员工姓名, 基本工资, 津贴, 奖金, 工�
             else {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((string)(部门));
             }
-            绩效考评系统DataSet.工资核算表DataTable dataTable = new 绩效考评系统DataSet.工资核算表DataTable();
+            MyPersonnelDataSet.工资核算表DataTable dataTable = new MyPersonnelDataSet.工资核算表DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -21065,14 +21065,14 @@ SELECT 自编号, 员工编号, 员工姓名, 基本工资, 津贴, 奖金, 工�
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.工资核算表DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.工资核算表DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "工资核算表");
         }
         
@@ -22010,7 +22010,7 @@ WHERE (员工编号 IN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.工资发放表DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.工资发放表DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -22023,9 +22023,9 @@ WHERE (员工编号 IN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.工资发放表DataTable GetData() {
+        public virtual MyPersonnelDataSet.工资发放表DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.工资发放表DataTable dataTable = new 绩效考评系统DataSet.工资发放表DataTable();
+            MyPersonnelDataSet.工资发放表DataTable dataTable = new MyPersonnelDataSet.工资发放表DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -22034,7 +22034,7 @@ WHERE (员工编号 IN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
-        public virtual int FillBy(绩效考评系统DataSet.工资发放表DataTable dataTable, global::System.Nullable<int> 发放月份, string 部门, global::System.Nullable<int> 发放年份) {
+        public virtual int FillBy(MyPersonnelDataSet.工资发放表DataTable dataTable, global::System.Nullable<int> 发放月份, string 部门, global::System.Nullable<int> 发放年份) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((发放月份.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((int)(发放月份.Value));
@@ -22065,7 +22065,7 @@ WHERE (员工编号 IN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
-        public virtual 绩效考评系统DataSet.工资发放表DataTable GetDataBy(global::System.Nullable<int> 发放月份, string 部门, global::System.Nullable<int> 发放年份) {
+        public virtual MyPersonnelDataSet.工资发放表DataTable GetDataBy(global::System.Nullable<int> 发放月份, string 部门, global::System.Nullable<int> 发放年份) {
             this.Adapter.SelectCommand = this.CommandCollection[1];
             if ((发放月份.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[0].Value = ((int)(发放月份.Value));
@@ -22085,7 +22085,7 @@ WHERE (员工编号 IN
             else {
                 this.Adapter.SelectCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
-            绩效考评系统DataSet.工资发放表DataTable dataTable = new 绩效考评系统DataSet.工资发放表DataTable();
+            MyPersonnelDataSet.工资发放表DataTable dataTable = new MyPersonnelDataSet.工资发放表DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -22093,14 +22093,14 @@ WHERE (员工编号 IN
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.工资发放表DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.工资发放表DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "工资发放表");
         }
         
@@ -23379,7 +23379,7 @@ SELECT 用户名称, 用户密码, 人事管理之基本档案, 人事管理之�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(绩效考评系统DataSet.操作用户DataTable dataTable) {
+        public virtual int Fill(MyPersonnelDataSet.操作用户DataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -23392,9 +23392,9 @@ SELECT 用户名称, 用户密码, 人事管理之基本档案, 人事管理之�
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual 绩效考评系统DataSet.操作用户DataTable GetData() {
+        public virtual MyPersonnelDataSet.操作用户DataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            绩效考评系统DataSet.操作用户DataTable dataTable = new 绩效考评系统DataSet.操作用户DataTable();
+            MyPersonnelDataSet.操作用户DataTable dataTable = new MyPersonnelDataSet.操作用户DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -23402,14 +23402,14 @@ SELECT 用户名称, 用户密码, 人事管理之基本档案, 人事管理之�
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet.操作用户DataTable dataTable) {
+        public virtual int Update(MyPersonnelDataSet.操作用户DataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(绩效考评系统DataSet dataSet) {
+        public virtual int Update(MyPersonnelDataSet dataSet) {
             return this.Adapter.Update(dataSet, "操作用户");
         }
         

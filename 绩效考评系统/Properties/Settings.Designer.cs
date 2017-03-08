@@ -25,13 +25,25 @@ namespace 绩效考评系统.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=ScoringSys;Integrated Security=True;Pooling=False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=MyPersonnel;Persist Security Info=True;User ID=sa;P" +
+            "assword=abcd-1234")]
         public string 绩效考评系统ConnectionString {
             get {
                 return ((string)(this["绩效考评系统ConnectionString"]));
             }
             set {
                 this["绩效考评系统ConnectionString"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=USER-20161216FD;Initial Catalog=MyPersonnel;User ID=sa;Password=abcd-" +
+            "1234")]
+        public string MyPersonnelConnectionString {
+            get {
+                return ((string)(this["MyPersonnelConnectionString"]));
             }
         }
     }

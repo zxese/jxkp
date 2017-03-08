@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MyPersonnelConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="MyPersonnelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.绩效考评系统.Properties.Settings.GlobalReference.Default.MyPersonnelConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MyPersonnelConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MyPersonnelConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.绩效考评系统.Properties.Settings.GlobalReference.Default.MyPersonnelConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="公司信息TableAdapter" GeneratorDataComponentClassName="公司信息TableAdapter" Name="公司信息" UserDataComponentName="公司信息TableAdapter">
@@ -3052,7 +3052,7 @@ SELECT 用户名称, 用户密码, 人事管理之基本档案, 人事管理之�
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="操作用户" msprop:Generator_TableClassName="操作用户DataTable" msprop:Generator_RowEvArgName="操作用户RowChangeEvent" msprop:Generator_TableVarName="table操作用户" msprop:Generator_TablePropName="操作用户" msprop:Generator_RowDeletingName="操作用户RowDeleting" msprop:Generator_RowChangingName="操作用户RowChanging" msprop:Generator_RowEvHandlerName="操作用户RowChangeEventHandler" msprop:Generator_RowDeletedName="操作用户RowDeleted" msprop:Generator_RowChangedName="操作用户RowChanged" msprop:Generator_UserTableName="操作用户" msprop:Generator_RowClassName="操作用户Row">
+        <xs:element name="操作用户" msprop:Generator_TableClassName="操作用户DataTable" msprop:Generator_RowEvArgName="操作用户RowChangeEvent" msprop:Generator_TableVarName="table操作用户" msprop:Generator_TablePropName="操作用户" msprop:Generator_RowDeletingName="操作用户RowDeleting" msprop:Generator_RowChangingName="操作用户RowChanging" msprop:Generator_RowEvHandlerName="操作用户RowChangeEventHandler" msprop:Generator_RowDeletedName="操作用户RowDeleted" msprop:Generator_UserTableName="操作用户" msprop:Generator_RowChangedName="操作用户RowChanged" msprop:Generator_RowClassName="操作用户Row">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="用户名称" msprop:Generator_ColumnVarNameInTable="column用户名称" msprop:Generator_ColumnPropNameInRow="用户名称" msprop:Generator_ColumnPropNameInTable="用户名称Column" msprop:Generator_UserColumnName="用户名称">
