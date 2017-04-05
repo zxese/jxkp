@@ -63,7 +63,7 @@
             this.基本档案BindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.基本档案BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.myPersonnelDataSet = new 绩效考评系统.绩效考评系统DataSet();
+            this.myPersonnelDataSet = new 绩效考评系统.PersonnelManagementDataSet();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.姓名ToolStripLabel = new System.Windows.Forms.ToolStripLabel();
@@ -137,7 +137,7 @@
             this.邮政编码MaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             this.籍贯TextBox = new System.Windows.Forms.TextBox();
             this.说明TextBox = new System.Windows.Forms.TextBox();
-            this.基本档案TableAdapter = new 绩效考评系统.绩效考评系统DataSetTableAdapters.基本档案TableAdapter();
+            this.基本档案TableAdapter = new 绩效考评系统.PersonnelManagementDataSetTableAdapters.基本档案TableAdapter();
             自编号Label = new System.Windows.Forms.Label();
             员工编号Label = new System.Windows.Forms.Label();
             部门Label = new System.Windows.Forms.Label();
@@ -484,7 +484,7 @@
             // 
             // myPersonnelDataSet
             // 
-            this.myPersonnelDataSet.DataSetName = "绩效考评系统DataSet";
+            this.myPersonnelDataSet.DataSetName = "PersonnelManagementDataSet";
             this.myPersonnelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // bindingNavigatorCountItem
@@ -1232,9 +1232,9 @@
 
         #endregion
 
-        private 绩效考评系统DataSet myPersonnelDataSet;
+        private PersonnelManagementDataSet myPersonnelDataSet;
         private System.Windows.Forms.BindingSource 基本档案BindingSource;
-        private 绩效考评系统.绩效考评系统DataSetTableAdapters.基本档案TableAdapter 基本档案TableAdapter;
+        private 绩效考评系统.PersonnelManagementDataSetTableAdapters.基本档案TableAdapter 基本档案TableAdapter;
         private System.Windows.Forms.BindingNavigator 基本档案BindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;

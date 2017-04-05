@@ -13,3 +13,4 @@ E:\软件研发\绩效考评系统\绩效考评系统\bin\Debug\绩效考评系�
 E:\软件研发\绩效考评系统\绩效考评系统\bin\Debug\绩效考评系统.pdb
 E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.exe
 E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.pdb
+E:\软件研发\绩效考评系统\绩效考评系统\obj\Debug\绩效考评系统.VersionForm.resources

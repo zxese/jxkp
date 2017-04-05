@@ -16,15 +16,8 @@ namespace 绩效考评系统
         {
             InitializeComponent();
         }
-        private string MyBgPhoto;
-        private string MyAddress;
-        private string MyTel;
-        private string MyCode;
-        private string MyWeb;
-        private string MySlogan;
-        private string MyBgPhotoShow;
+
         private string MyOperator;
-        private string MyCompany;
         private void MainForm_Load(object sender, EventArgs e)
         {
             //添加ThreadException事件关联程序
@@ -157,6 +150,17 @@ namespace 绩效考评系统
             ChangeUserPasswordForm MyDlg = new ChangeUserPasswordForm();
             MyDlg.用户名称TextBox.Text = this.MyOperator;
             MyDlg.ShowDialog();
+        }
+
+        private void 系统帮助信息ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VersionForm MyDlg = new VersionForm();
+            MyDlg.ShowDialog();
+        }
+
+        private void 绩效考评ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
 
         

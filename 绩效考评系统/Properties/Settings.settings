@@ -3,15 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="绩效考评系统ConnectionString" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=.;Initial Catalog=MyPersonnel;Persist Security Info=True;User ID=sa;Password=abcd-1234</Value>
-    </Setting>
-    <Setting Name="MyPersonnelConnectionString" Type="(Connection string)" Scope="Application">
-      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=USER-20161216FD;Initial Catalog=MyPersonnel;User ID=sa;Password=abcd-1234&lt;/ConnectionString&gt;
-  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
-&lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=USER-20161216FD;Initial Catalog=MyPersonnel;User ID=sa;Password=abcd-1234</Value>
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=jxkp;Persist Security Info=True;User ID=sa;Password=abcd-1234</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -58,14 +58,14 @@
             this.额定人数TextBox = new System.Windows.Forms.TextBox();
             this.说明TextBox = new System.Windows.Forms.TextBox();
             this.公司部门BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.myPersonnelDataSet = new 绩效考评系统.绩效考评系统DataSet();
+            this.myPersonnelDataSet = new 绩效考评系统.PersonnelManagementDataSet();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.公司部门TableAdapter = new 绩效考评系统.绩效考评系统DataSetTableAdapters.公司部门TableAdapter();
+            this.公司部门TableAdapter = new 绩效考评系统.PersonnelManagementDataSetTableAdapters.公司部门TableAdapter();
             部门名称Label = new System.Windows.Forms.Label();
             部门负责人Label = new System.Windows.Forms.Label();
             人事文员Label = new System.Windows.Forms.Label();
@@ -344,7 +344,7 @@
             // 
             // myPersonnelDataSet
             // 
-            this.myPersonnelDataSet.DataSetName = "绩效考评系统DataSet";
+            this.myPersonnelDataSet.DataSetName = "PersonnelManagementDataSet";
             this.myPersonnelDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dataGridViewTextBoxColumn1
@@ -430,9 +430,9 @@
 
         #endregion
 
-        private 绩效考评系统DataSet myPersonnelDataSet;
+        private PersonnelManagementDataSet myPersonnelDataSet;
         private System.Windows.Forms.BindingSource 公司部门BindingSource;
-        private 绩效考评系统.绩效考评系统DataSetTableAdapters.公司部门TableAdapter 公司部门TableAdapter;
+        private 绩效考评系统.PersonnelManagementDataSetTableAdapters.公司部门TableAdapter 公司部门TableAdapter;
         private System.Windows.Forms.BindingNavigator 公司部门BindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
